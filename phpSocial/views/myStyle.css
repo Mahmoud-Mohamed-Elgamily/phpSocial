@@ -1,0 +1,124 @@
+/*-- Global Selectors --*/
+a{
+    color:#47649F;
+}
+
+body{
+    font-family:'helvetica';    
+}
+
+/*-- Bootstrap Override Style --*/
+
+
+/*-- Content Style --*/
+.post-footer-option li{
+    float:left;
+    margin-right:50px;
+    padding-bottom:15px;
+}
+
+.post-footer-option li a{
+    color:#AFB4BD;
+    font-weight:500;
+    font-size:1.3rem;
+}
+
+.photo-profile{
+    border:1px solid #DDD;    
+}
+
+.anchor-username h4{
+    font-weight:bold;    
+}
+
+.anchor-time{
+    color:#ADB2BB;
+    font-size:1.2rem;
+}
+
+.media{
+    margin: 10px 0;
+    padding: 5px;
+    background-color: #e9ebee;
+    border-radius: 4px;
+    position: relative;
+}
+
+img{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+}
+
+.mt-2{
+    margin-top: 5px;
+}
+
+textarea{
+    resize: none;
+}
+
+#postForm{
+    width: 24%;
+    height: 80%;
+    position: fixed;
+}
+
+#postForm input , #postForm label{
+    margin: 10px auto;
+    text-align: center;
+    display: block;
+}
+
+.media-right{
+    position: absolute;
+    right: 5px;
+    top: 10px;
+}
+
+section.post-heading .media .media-right .btn{ 
+    opacity: .8;
+}
+
+pre{
+    border: none;
+}
+
+.btn{
+    padding: 2px 5px;
+}
+
+.addComment form{
+    position: relative;
+}
+
+.addComment div{
+    width: 80%;
+    display: inline-block;
+    margin-bottom: 0;   
+}
+
+.addComment input{
+    display: inline-block;
+    width: 18%;
+    height: 90%;
+    top: 0;
+    right: 0;
+    position: absolute;
+}
+
+img.postImage{
+    width: 100%;
+    height: 250px;
+    border-radius: 0;
+}
+
+#noPosts{
+    text-align: center;
+    margin-top: 70px;
+}
+
+hr {
+    border-color: white;
+    border-width: 2px;
+}
